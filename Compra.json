@@ -1,0 +1,166 @@
+{
+    "supermercado1": [
+        {
+            "id": 1,
+            "nombre": "Carrefour",
+            "direccion": "Calle Gabriel Adrian Celaya",
+            "codigoPostal": "48910",
+            "geolocalizacion": [
+                "43°18'7.532 N",
+                "3°0'9.107 W"
+            ],
+            "localidad": "Sestao",
+            "horario": "Lunes a Sábado de 9 - a 21h",
+            "productos": [
+                {
+                    "id": "01",
+                    "nombre": "leche desnatada",
+                    "seccion": "lácteos",
+                    "descripcion": "leche desnatada",
+                    "origen": "España",
+                    "oferta": false,
+                    "pvp": 1.5,
+                    "formato": "1 litro",
+                    "habitual": true,
+                    "adquirido": true
+                },
+                {
+                    "id": "02",
+                    "nombre": "Bonito",
+                    "seccion": "pescadería",
+                    "descripcion": "bonito del norte",
+                    "origen": "España",
+                    "oferta": true,
+                    "vigenciaOferta": [
+                        "01/04/2022",
+                        "15/04/2022"
+                    ],
+                    "pvp": 15,
+                    "pvpOferta": 12.50,
+                    "formato": "1kg",
+                    "habitual": false,
+                    "adquirido": true
+                },
+                {
+                    "id": "03",
+                    "nombre": "huevos camperos",
+                    "seccion": "frescos",
+                    "descripcion": "huevos gallinas camperas",
+                    "origen": "España",
+                    "oferta": true,
+                    "vigenciaOferta": [
+                        "01/04/2022",
+                        "15/04/2022"
+                    ],
+                    "pvp": 3.80,
+                    "pvpOferta": 3,
+                    "formato": "docena",
+                    "habitual": true,
+                    "adquirido": true
+                }
+            ]
+        }
+    ],
+    "supermercado2": [
+        {
+            "id": 2,
+            "nombre": "Mercadona",
+            "direccion": "Erribera Etorbidea, 16, Local 63",
+            "codigoPosta": "48903",
+            "geolocalizacion": [
+                "43° 17' 50.905 N",
+                "3° 0' 3.600 W"
+            ],
+            "localidad": "Barakaldo",
+            "horario": "Lunes a Sábado de 9 - 21:00h",
+            "productos": [
+                {
+                    "id": "01",
+                    "nombre": "kefir",
+                    "seccion": "lácteos",
+                    "descripcion": "kefir natural",
+                    "origen": "España",
+                    "oferta": true,
+                    "vigenciaOferta": [
+                        "15/04/2022",
+                        "30/04/2022"
+                    ],
+                    "pvp": 2.30,
+                    "pvpRebajado": 2,
+                    "formato": "litro",
+                    "habitual": false,
+                    "adquirido": true
+                },
+                {
+                    "id": "02",
+                    "nombre": "Harina de trigo",
+                    "seccion": "panadería",
+                    "descripcion": "Harina de trigo",
+                    "origen": "Ucrania",
+                    "oferta": false,
+                    "pvp": 1.25,
+                    "formato": "1 kg.",
+                    "habitual": true,
+                    "adquirido": true
+                }
+            ]
+        }
+    ],
+    "supermercado3": [
+        {
+            "id": 3,
+            "nombre": "Eroski",
+            "direccion": "Ballonti Etorb., 1",
+            "codigoPostal": "48920",
+            "geolocalizacion": [
+                "43° 18' 44.154 N",
+                "3° 1' 23.182 W"
+            ],
+            "lugar": "Portugalete",
+            "horarioApertura": "Lunes a Sábado de 9:00 - 22h",
+            "productos": [
+                {
+                    "id": "01",
+                    "nombre": "Coca-cola",
+                    "seccion": "Refrescos",
+                    "descripcion": "coca-cola",
+                    "origen": "España",
+                    "oferta": true,
+                    "vigenciaOferta": [
+                        "03/04/2022",
+                        "10/04/2022"
+                    ],
+                    "pvp": 8.55,
+                    "pvpOferta": 6.4,
+                    "formato": "pack de 6 x 33 cl.",
+                    "habitual": false,
+                    "adquirido": false
+                },
+                {
+                    "id": "02",
+                    "nombre": "maiz",
+                    "seccion": "congelados",
+                    "descripcion": "Maiz desgranado congelado",
+                    "origen": "España",
+                    "oferta": false,
+                    "pvp": 1.75,
+                    "formato": "500gr",
+                    "habitual": false,
+                    "adquirido": true
+                },
+                {
+                    "id": "03",
+                    "nombre": "pasta integral",
+                    "seccion": "pastas",
+                    "descripcion": "pasta de trigo integral",
+                    "origen": "italia",
+                    "oferta": false,
+                    "pvp": 2.50,
+                    "formato": "500g",
+                    "habitual": true,
+                    "adquirido": false
+                  }
+            ]
+        }
+    ]
+}

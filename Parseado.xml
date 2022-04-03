@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <supermercado1>
+         <id>1</id>
+         <nombre>Carrefour</nombre>
+         <direccion>Calle Gabriel Adrian Celaya</direccion>
+         <codigoPostal>48910</codigoPostal>
+         <geolocalizacion>43°18'7.532 N</geolocalizacion>
+         <geolocalizacion>3°0'9.107 W</geolocalizacion>
+         <localidad>Sestao</localidad>
+         <horario>Lunes a Sábado de 9 - a 21h</horario>
+         <productos>
+             <id>01</id>
+             <nombre>leche desnatada</nombre>
+             <seccion>lácteos</seccion>
+             <descripcion>leche desnatada</descripcion>
+             <origen>España</origen>
+             <oferta>false</oferta>
+             <pvp>1.5</pvp>
+             <formato>1 litro</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>02</id>
+             <nombre>Bonito</nombre>
+             <seccion>pescadería</seccion>
+             <descripcion>bonito del norte</descripcion>
+             <origen>España</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>01/04/2022</vigenciaOferta>
+             <vigenciaOferta>15/04/2022</vigenciaOferta>
+             <pvp>15</pvp>
+             <pvpOferta>12.5</pvpOferta>
+             <formato>1kg</formato>
+             <habitual>false</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>03</id>
+             <nombre>huevos camperos</nombre>
+             <seccion>frescos</seccion>
+             <descripcion>huevos gallinas camperas</descripcion>
+             <origen>España</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>01/04/2022</vigenciaOferta>
+             <vigenciaOferta>15/04/2022</vigenciaOferta>
+             <pvp>3.8</pvp>
+             <pvpOferta>3</pvpOferta>
+             <formato>docena</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+     </supermercado1>
+     <supermercado2>
+         <id>2</id>
+         <nombre>Mercadona</nombre>
+         <direccion>Erribera Etorbidea, 16, Local 63</direccion>
+         <codigoPosta>48903</codigoPosta>
+         <geolocalizacion>43° 17' 50.905 N</geolocalizacion>
+         <geolocalizacion>3° 0' 3.600 W</geolocalizacion>
+         <localidad>Barakaldo</localidad>
+         <horario>Lunes a Sábado de 9 - 21:00h</horario>
+         <productos>
+             <id>01</id>
+             <nombre>kefir</nombre>
+             <seccion>lácteos</seccion>
+             <descripcion>kefir natural</descripcion>
+             <origen>España</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>15/04/2022</vigenciaOferta>
+             <vigenciaOferta>30/04/2022</vigenciaOferta>
+             <pvp>2.3</pvp>
+             <pvpRebajado>2</pvpRebajado>
+             <formato>litro</formato>
+             <habitual>false</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>02</id>
+             <nombre>Harina de trigo</nombre>
+             <seccion>panadería</seccion>
+             <descripcion>Harina de trigo</descripcion>
+             <origen>Ucrania</origen>
+             <oferta>false</oferta>
+             <pvp>1.25</pvp>
+             <formato>1 kg.</formato>
+             <habitual>true</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+     </supermercado2>
+     <supermercado3>
+         <id>3</id>
+         <nombre>Eroski</nombre>
+         <direccion>Ballonti Etorb., 1</direccion>
+         <codigoPostal>48920</codigoPostal>
+         <geolocalizacion>43° 18' 44.154 N</geolocalizacion>
+         <geolocalizacion>3° 1' 23.182 W</geolocalizacion>
+         <lugar>Portugalete</lugar>
+         <horarioApertura>Lunes a Sábado de 9:00 - 22h</horarioApertura>
+         <productos>
+             <id>01</id>
+             <nombre>Coca-cola</nombre>
+             <seccion>Refrescos</seccion>
+             <descripcion>coca-cola</descripcion>
+             <origen>España</origen>
+             <oferta>true</oferta>
+             <vigenciaOferta>03/04/2022</vigenciaOferta>
+             <vigenciaOferta>10/04/2022</vigenciaOferta>
+             <pvp>8.55</pvp>
+             <pvpOferta>6.4</pvpOferta>
+             <formato>pack de 6 x 33 cl.</formato>
+             <habitual>false</habitual>
+             <adquirido>false</adquirido>
+         </productos>
+         <productos>
+             <id>02</id>
+             <nombre>maiz</nombre>
+             <seccion>congelados</seccion>
+             <descripcion>Maiz desgranado congelado</descripcion>
+             <origen>España</origen>
+             <oferta>false</oferta>
+             <pvp>1.75</pvp>
+             <formato>500gr</formato>
+             <habitual>false</habitual>
+             <adquirido>true</adquirido>
+         </productos>
+         <productos>
+             <id>03</id>
+             <nombre>pasta integral</nombre>
+             <seccion>pastas</seccion>
+             <descripcion>pasta de trigo integral</descripcion>
+             <origen>italia</origen>
+             <oferta>false</oferta>
+             <pvp>2.5</pvp>
+             <formato>500g</formato>
+             <habitual>true</habitual>
+             <adquirido>false</adquirido>
+         </productos>
+     </supermercado3>
+ </root>
